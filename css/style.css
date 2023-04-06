@@ -714,6 +714,22 @@ video {
   margin-top: 1rem;
 }
 
+.mt-24 {
+  margin-top: 6rem;
+}
+
+.mt-20 {
+  margin-top: 5rem;
+}
+
+.mt-16 {
+  margin-top: 4rem;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
 .block {
   display: block;
 }
@@ -1227,7 +1243,7 @@ video {
 }
 
 #card-3 {
-  background-image: url('../src/supportdesk.png');
+  background-image: url('../src/foyer-rural.png');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 48%;
@@ -1492,14 +1508,13 @@ video {
     padding-bottom: 3rem;
   }
 
-  .md\:py-8 {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-  }
-
   .md\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+
+  .md\:pt-12 {
+    padding-top: 3rem;
   }
 
   .md\:text-left {
