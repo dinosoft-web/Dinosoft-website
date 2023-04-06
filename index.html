@@ -27,7 +27,7 @@
 				>
 					<!-- Logo & Menu Container -->
 					<div
-						class="flex items-center justify-start w-full md:space-x-4 md:w-1/3"
+						class="flex items-center justify-start w-full md:space-x-4 md:w-3/6"
 					>
 						<!-- logo -->
 						<a class="group w-28" href="index.html">
@@ -46,10 +46,11 @@
 						</div>
 						<div
 							id="md-menu"
-							class="hidden space-x-3 justify-w-full items-center"
+							class="hidden max-w-xl space-x-3 justify-w-full items-center"
 						>
 							<a href="#header" class="hover:text-orange">Accueil</a>
 							<a href="#about" class="hover:text-orange">A-propos</a>
+							<a href="#features" class="hover:text-orange">Services</a>
 							<a href="#projects" class="hover:text-orange">Projets</a>
 						</div>
 					</div>
@@ -82,6 +83,7 @@
 					<div class="flex flex-col space-y-6 pl-12">
 						<a href="#header" class="hover:text-black">Accueil</a>
 						<a href="#about" class="hover:text-black">A-propos</a>
+						<a href="#features" class="hover:text-orange">Services</a>
 						<a href="#projects" class="hover:text-black">Projets</a>
 					</div>
 					<!-- CTA BUTTON -->
@@ -466,6 +468,153 @@
 					</p>
 				</div>
 			</div>
+		</section>
+		<section id="features">
+			<!-- Features Container -->
+			<div
+				class="container flex flex-col space-y-10 max-w-7xl mx-auto px-6 py-6 md:py-8"
+			>
+				<!-- Header -->
+				<div class="text-4xl font-bold border-b-4 border-orange pb-6 w-1/2">
+					Découvrez mes services
+				</div>
+			</div>
+			<!-- Features Tabs -->
+		<section id="tabs">
+			<!-- Tabs/Panels Container -->
+			<div class="container relative max-w-7xl mx-auto my-6 mb-20  px-6">
+				<div class="bg-tabs"></div>
+				<!-- Tabs Flex Container -->
+				<div
+					class="flex flex-col justify-center max-w-xl mx-auto mb-6 border-b md:space-x-10 md:flex-row"
+				>
+					<!-- Tab 1 -->
+					<div
+						class="flex justify-center text-center cursor-pointer text-gray-600 border-b md:border-b-0 hover:text-orange md:w-1/3 tab"
+						data-target="panel-1"
+					>
+						<div class="py-5 border-b-4 border-orange" data-target="panel-1">
+							Conception
+						</div>
+					</div>
+
+					<!-- Tab 2 -->
+					<div
+						class="flex justify-center text-center cursor-pointer text-gray-600 border-b md:border-b-0 hover:text-orange md:w-1/3 tab"
+						data-target="panel-2"
+					>
+						<div class="py-5" data-target="panel-2">Développement</div>
+					</div>
+
+					<!-- Tab 3 -->
+					<div
+						class="flex justify-center text-center cursor-pointer text-gray-600 border-b md:border-b-0 hover:text-orange md:w-1/3 tab"
+						data-target="panel-3"
+					>
+						<div class="py-5" data-target="panel-3">S.E.O</div>
+					</div>
+				</div>
+
+				<!-- Tab Panels -->
+				<div id="panels" class="container mx-auto">
+					<!-- Panel 1 -->
+					<div
+						class="flex flex-col py-5 md:flex-row md:space-x-7 panel panel-1"
+					>
+						<!-- Panel Image -->
+						
+
+						<div
+					id="feature-image1"
+					class="w-full h-80 md:w-1/2 md:h-96 rounded-lg shadow-lg mr-8 border-4 border-orange"
+				></div>
+						<!-- Panel Content -->
+						<div class="flex flex-col space-y-8 ">
+							<h3
+								class="mt-32 text-3xl font-semibold text-center md:mt-0 md:text-left"
+							>
+								Concevoir votre solution
+							</h3>
+							<p class="max-w-md text-center text-grayishBlue md:text-left">
+								Enfin ! Vous avez décidé de doter votre structure d'une nouvelle solution numérique (ou de mettre à jour une solution existante). 
+								La première étape est de la concevoir visuellement (UI) et fonctionnellement (UX) votre futur outil. 
+							</p>
+							<p class="max-w-md text-center text-grayishBlue md:text-left">
+								En fonction de vos besoins, de vos envies mais aussi de ce qui se fait ailleurs sur le marché, je réalise pour vous une maquette qui servira de base pour le développement de votre solution numérique.
+							</p>
+							<p class="max-w-md text-center text-bold text-grayishBlue md:text-left">
+								<strong>Et combien ça va me coûter ?</strong> En général, le prix de la conception est comprise dans l'offre de développement.
+							</p>
+							
+						</div>
+					</div>
+					<!-- Panel 2 -->
+					<div
+						class="flex flex-col hidden py-5 md:flex-row md:space-x-7 panel panel-2"
+					>
+						<!-- Panel Image -->
+						
+
+						<div
+					id="feature-image2"
+					class="w-full h-80 md:w-1/2 md:h-96 rounded-lg shadow-lg mr-8 border-4 border-orange"
+				></div>
+						<!-- Panel Content -->
+						<div class="flex flex-col space-y-8 ">
+							<h3
+								class="mt-32 text-3xl font-semibold text-center md:mt-0 md:text-left"
+							>
+								Développer votre solution
+							</h3>
+							<p class="max-w-md text-center text-grayishBlue md:text-left">
+								Le coeur de mon métier et ma discipline de prédilection. Je m'occupe de tout : code, hébergement, nom de domaine. 
+							</p>
+							<p class="max-w-md text-center text-grayishBlue md:text-left">
+								Pendant cette étape, nous restons en contact afin de s'assurer que la solution développée corresponde bien à vos besoin. 
+							</p>
+							<p class="max-w-md text-center text-bold text-grayishBlue md:text-left">
+								<strong>Et combien ça va me coûter ?</strong> Le prix est variable en fonction de la complexité de la solution. Il faut compter 800€ pour une page simple (design compris) par exemple. Pour du eCommerce, les tarifs débuteront à 3000€. 
+							</p>
+							
+						</div>
+					</div>
+					<!-- Panel 3 -->
+					<div
+						class="flex flex-col hidden py-5 md:flex-row md:space-x-7 panel panel-3"
+					>
+						<!-- Panel Image -->
+						
+
+						<div
+					id="feature-image3"
+					class="w-full h-80 md:w-1/2 md:h-96 rounded-lg shadow-lg mr-8 border-4 border-orange"
+				></div>
+						<!-- Panel Content -->
+						<div class="flex flex-col space-y-8 ">
+							<h3
+								class="mt-32 text-3xl font-semibold text-center md:mt-0 md:text-left"
+							>
+								Optimisez votre visibilité sur le web
+							</h3>
+							<p class="max-w-md text-center text-grayishBlue md:text-left">
+								Maintenant que votre solution est en ligne, il s'agit pour vos clients de vous trouvez parmis une multitude d'offres. C'est la que le Search Engine Optimization (S.E.O) entre en jeu.  
+							</p>
+							<p class="max-w-md text-center text-grayishBlue md:text-left">
+								La plupart des utilisateurs du web utilisent des moteurs de recherce pour trouver des sites qu'ils visitent. Je vous propose d'optimiser votre nouveau site (ou un site déjà existant) afin que celui-ci soit mieux référencé et donc apparaissent dans plus de resultats de recherche.
+							</p>
+							<p class="max-w-md text-center text-bold text-grayishBlue md:text-left">
+								<strong>Et combien ça va me coûter ?</strong> Pour une optimisation S.E.O, il faut compter 250€.
+							</p>
+							
+						</div>
+					</div>
+
+					
+
+					
+				</div>
+			</div>
+		</div>
 		</section>
 		<section id="projects">
 			<!-- Project Container -->

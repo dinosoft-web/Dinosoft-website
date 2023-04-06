@@ -56,6 +56,27 @@
 	background-position: 25%;
 }
 
+#feature-image1 {
+	background-image: url('../src/UI.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50%;
+}
+
+#feature-image2 {
+	background-image: url('../src/web-dev.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50%;
+}
+
+#feature-image3 {
+	background-image: url('../src/seo.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50%;
+}
+
 #card-1 {
 	background-image: url('../src/thisstudio1.png');
 	background-repeat: no-repeat;
